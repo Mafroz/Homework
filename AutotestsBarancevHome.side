@@ -1,0 +1,259 @@
+{
+  "id": "a6e8a3a9-5230-43d7-9682-8e618dd528cb",
+  "version": "2.0",
+  "name": "AutotestsBarancevHome",
+  "url": "http://voblery.com.ua",
+  "tests": [{
+    "id": "34670ad3-d10f-4089-ba23-7c15e269ffa4",
+    "name": "VoblerTest_editProfile",
+    "commands": [{
+      "id": "ff3f1935-2a3f-460e-82f0-fd1ce3aecc0c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd676aa7-cf80-4ab5-9e40-6cc913d83a73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1693x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e05d248-3fc8-4ca9-ab32-f7eb657d520d",
+      "comment": "",
+      "command": "click",
+      "target": "id=loglink2",
+      "targets": [
+        ["id=loglink2", "id"],
+        ["linkText=Войти", "linkText"],
+        ["css=#loglink2", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[@id='loglink2']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d272e778-d0f5-4313-8d58-40cd2c67e05f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a57cb8-c444-4ab3-b56f-11879ddebe61",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96666b09-c730-4358-b313-890bcf6f07ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div/input", "xpath:position"]
+      ],
+      "value": "maxim.zasetski@gmail.com"
+    }, {
+      "id": "b74f6077-5005-4095-b006-f1cd055ea2ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=passLabel",
+      "targets": [
+        ["id=passLabel", "id"],
+        ["css=#passLabel", "css:finder"],
+        ["xpath=//label[@id='passLabel']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931465a0-fcd2-41fc-8a04-c7b905e4bf3e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Ckjybr13"
+    }, {
+      "id": "c8f0527f-aec9-4582-98e1-e5d60658a251",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logform2 .button",
+      "targets": [
+        ["css=#logform2 .button", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//div[@id='logform2']/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36ce622-4cdf-448e-8c2d-c7194b6968b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Новинки",
+      "targets": [
+        ["linkText=Новинки", "linkText"],
+        ["css=.act:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Новинки')]", "xpath:link"],
+        ["xpath=//div[@id='menu_new']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[21]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Новинки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84280e5d-45ed-4b86-be48-18051e56e3e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=loglink4",
+      "targets": [
+        ["id=loglink4", "id"],
+        ["linkText=Мой кабинет", "linkText"],
+        ["css=#loglink4", "css:finder"],
+        ["xpath=//a[contains(text(),'Мой кабинет')]", "xpath:link"],
+        ["xpath=//a[@id='loglink4']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мой кабинет')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e23bec3-b9ea-411e-bae6-805ea9f3ad4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мой профиль",
+      "targets": [
+        ["linkText=Мой профиль", "linkText"],
+        ["css=.links > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Мой профиль')]", "xpath:link"],
+        ["xpath=//div[@id='logform4']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profile.html')]", "xpath:href"],
+        ["xpath=//body/div[11]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мой профиль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e96834-7a87-49b7-babc-2c790a87ac77",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(2) .input2", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//table[@id='form']/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ed29cc-c980-4189-830e-6b524f1eba70",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(2) .input2", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//table[@id='form']/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0548aa5b-c39e-4a3f-8d7f-ba0908c4ab3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='form']/tbody/tr[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68608a5a-940f-4b78-8e1c-94e3dd9c28d9",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=tr:nth-child(2) .input2", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//table[@id='form']/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "Hoverclass"
+    }, {
+      "id": "94ed042d-7a89-461c-8108-8c2086c8640d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Обновить аккаунт",
+      "targets": [
+        ["linkText=Обновить аккаунт", "linkText"],
+        ["css=td > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Обновить аккаунт')]", "xpath:link"],
+        ["xpath=//a[@onclick='if (checkForm(document.reg_form, check_register)) document.reg_form.submit(); return false']", "xpath:attributes"],
+        ["xpath=//table[@id='form']/tbody/tr[20]/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обновить аккаунт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dbd592b-983f-4d5c-b071-7dac6902f75b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loglink5",
+      "targets": [
+        ["id=loglink5", "id"],
+        ["linkText=Выйти", "linkText"],
+        ["css=#loglink5", "css:finder"],
+        ["xpath=//a[contains(text(),'Выйти')]", "xpath:link"],
+        ["xpath=//a[@id='loglink5']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Выйти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "54610152-a923-464b-bfab-d309c88b577b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["34670ad3-d10f-4089-ba23-7c15e269ffa4"]
+  }],
+  "urls": ["http://voblery.com.ua/"],
+  "plugins": []
+}
