@@ -28,4 +28,3 @@ class TestVoblerTesteditProfile():
     self.driver.find_element(By.NAME, "name").send_keys("Hoverclass")
     self.driver.find_element(By.LINK_TEXT, "Обновить аккаунт").click()
     self.driver.find_element(By.ID, "loglink5").click()
-  
